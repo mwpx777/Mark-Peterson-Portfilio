@@ -1,0 +1,8 @@
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 47%, #80D0C7 100%);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
