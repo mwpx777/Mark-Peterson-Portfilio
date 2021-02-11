@@ -1,20 +1,48 @@
-body {
+/* body {
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 47%, #80D0C7 100%);
 
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
-}
+} */
+* body{
+    background: linear-gradient(360deg,#949494 10%,#efefef 360%);
+    /* background: linear-gradient(360deg,#383836 10%,#4a4a4a 360%);  */
+     /* background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%); */
+    }
 
-#title {
+.mwp {
     display:flex;
     justify-content: center;
 }
 
-#aboutMeFont{
-    font-size: 2rem;
+#title {
+ 
+    width: 80%
+;}
+
+#aboutMeFont {
     
+    font-size: 1.7rem;
+    color:white;
+    
+}
+.bioParagraph {
+    padding-left: 3rem;
+}
+#webDev {
+    padding-right:5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerText{
+    display:flex;
+    align-self: flex-end;
+    color:white;
+    font-size:3rem;
 }
 
 .carousel-caption {
@@ -26,13 +54,13 @@ body {
     box-shadow: 2px 2px 6px black
 }
 
-.carosel-item, img{
+.carosel-item a{
     border-radius:10px;
     
 }
 
 .container{
-    margin-top:2rem;
+    margin-top:6rem;
 }
 
 #picture {
@@ -41,4 +69,55 @@ body {
 
 .nav-link{
     color: white;
+}
+
+#navbar {
+    display:flex;
+    justify-content: center;
+}
+
+#navbarNavDropdown{
+    display:flex;
+    justify-content:center;
+    font-size: 1.8rem;
+    padding:1rem;
+}
+
+.nav-item {
+    padding:1rem;
+}
+
+.bioSection {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#forward , #reverse{
+    color:black;
+    font-size:3rem;
+}
+
+.home{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    font-size:3rem;
+
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    color:white;
+    padding: 1rem;
+    margin-top:3rem;
+
+}
+
+#mwpLogo{
+    margin-left: 1rem;
 }

@@ -4,12 +4,15 @@
 	 height="288px" viewBox="0 0 288 288" style="enable-background:new 0 0 288 288;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
-	.st1{fill:#B3B3B3;}
+	.st1{fill:#FFFFFF;}
 	.st2{font-family:'LEMONMILK-Bold';}
-	.st3{font-size:19px;}
+	.st3{font-size:24.5123px;}
 	.st4{font-family:'LEMONMILK-LightItalic';}
-	.st5{font-size:12px;}
-	.st6{letter-spacing:5;}
+	.st5{font-size:15.4815px;}
+	.st6{letter-spacing:6;}
+	.st7{font-family:'LEMONMILK-Light';}
+	.st8{font-size:8px;}
+	.st9{letter-spacing:1;}
 </style>
 <g id="Layer_1" class="st0">
 	
@@ -192,7 +195,9 @@ AAAHQTIAAADgYDERAADm5y4sQ3UJYGZUtwAAAABsVVX9HxkU5kVku6BKAAAAAElFTkSuQmCC" transf
 	</image>
 </g>
 <g id="Layer_2">
-	<text transform="matrix(1 0 0 1 79.9675 82.0322)" class="st1 st2 st3">MARK</text>
-	<text transform="matrix(1 0 0 1 96.6184 93.909)" class="st1 st4 st5 st6">PETERSON</text>
+	<text transform="matrix(1 0 0 1 69.1288 142.5735)" class="st1 st2 st3">MARK</text>
+	<text transform="matrix(1 0 0 1 90.6103 157.8958)" class="st1 st4 st5 st6">PETERSON</text>
+	<text transform="matrix(1 0 0 1 69.6422 173.4731)" class="st1 st7 st8 st9">full stack web Developer</text>
+	<text transform="matrix(1 0 0 1 69.6422 184.7167)" class="st1 st7 st8 st9">                &amp; DIGITAL ARTIST</text>
 </g>
 </svg>
