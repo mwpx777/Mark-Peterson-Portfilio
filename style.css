@@ -7,11 +7,45 @@
     z-index: 2;
 } */
 * body{
-    background: linear-gradient(360deg,#949494 10%,#efefef 360%);
-    /* background: linear-gradient(360deg,#383836 10%,#4a4a4a 360%);  */
-     /* background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%); */
-    }
+    /* background: linear-gradient(360deg,#949494 10%,#efefef 360%);
+    
+    background-size: cover; */
+   background-color:rgb(24, 24, 24);
+   
+}
+/* .animate-top{
+    position: absolute;
+    top: -1200px;
+    animation: slide 2s forwards;
+    animation-delay: 0.5s;
+}
+@keyframes slide {
+    100% { top: 0; }
+} */
 
+.animate-left{
+    position: absolute;
+    left: -1200px;
+    animation: slide 2s forwards;
+    animation-delay: 0.5s;
+}
+
+.animate-bio{
+    position: absolute;
+    left: -1200px;
+    animation: slide 2s forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+.head {
+    background: #121b54;
+    opacity:0.8;
+}
 .mwp {
     display:flex;
     justify-content: center;
@@ -30,8 +64,9 @@
 }
 .bioParagraph {
     padding-left: 3rem;
+    font-size: 1.4rem;
 }
-#webDev {
+#webDev , #aboutMe{
     padding-right:5rem;
     display:flex;
     flex-direction: column;
@@ -54,13 +89,13 @@
     box-shadow: 2px 2px 6px black
 }
 
-.carosel-item a{
+.pics {
     border-radius:10px;
     
 }
 
 .container{
-    margin-top:6rem;
+    margin-bottom:6rem;
 }
 
 #picture {
